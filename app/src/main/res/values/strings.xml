@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Colocviu</string>
+    <string name="loginBtn">Login</string>
+    <string name="usernameTxt">Username</string>
+    <string name="passwordTxt">Password</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="age">Age</string>
+    <string name="addPerson">Add Person</string>
+    <string name="deletePerson">Delete Person</string>
+    <string name="singout">Sing out</string>
+    <string name="resetList">ResetList</string>
+    <string name="gotoFavorites">Go TO Favorites</string>
+    <string name="setFavorite">Set Favorite</string>
+</resources>

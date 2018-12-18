@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/FavPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style ="@style/PersonName" />
+
+
+    <TextView
+        android:id="@+id/FavPersonEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style ="@style/PersonEmail"/>
+
+    <TextView
+        android:id="@+id/FavPersonAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style ="@style/PersonAge"/>
+
+    <ImageView
+        android:id="@+id/personImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/offerTitleTextView"
+        android:scaleType="fitXY"
+     />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textViewPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style ="@style/PersonName" />
+
+
+    <TextView
+        android:id="@+id/textViewPersonEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style ="@style/PersonEmail"/>
+
+    <TextView
+    android:id="@+id/textViewPersonAge"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style ="@style/PersonAge"/>
+
+    <TextView
+        android:id="@+id/textViewPersonFav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style ="@style/PersonAge"/>
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageViewPersonImg"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--tools:srcCompat="@tools:sample/avatars" />-->
+</LinearLayout>

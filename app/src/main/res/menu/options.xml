@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/singout"
+        android:title="@string/singout" />
+    <item android:id="@+id/reset_list"
+        android:title="@string/resetList" />
+    <item android:id="@+id/goto_favotites"
+        android:title="@string/gotoFavorites" />
+</menu>
